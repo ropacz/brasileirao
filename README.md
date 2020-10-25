@@ -8,6 +8,10 @@ No back-end foi desenvolvido uma API Restful utilizando Javascript e o banco de 
 
 Aplicação criada com base nos conhecimentos obtidos na unidade 03 do curso da Cubos Academy.
 
+## Video demonstração
+
+[![Desfio Unidade 3 - Cubos Academy](https://pasteboard.co/JxiF5vD.png)](http://www.youtube.com/watch?v=UHZJ2T82pfQ "")
+
 ## Recursos utilizados
 
 - Back-end 
