@@ -4,7 +4,7 @@ O objetivo do desafio foi a criação de um website para exibir os resultados do
 
 ### Construção
 
-No back-end foi desenvolvido uma API Restful utilizando Javascript e o banco de dados PostgreSQ para consumir a API no front-end foi utilizado ReactJs.
+No back-end foi desenvolvido uma API Restful utilizando Javascript e o banco de dados PostgreSQL para consumir a API no front-end foi utilizado ReactJs.
 
 Aplicação criada com base nos conhecimentos obtidos na unidade 03.
 
@@ -28,7 +28,7 @@ Aplicação criada com base nos conhecimentos obtidos na unidade 03.
 
 **Rodrigo Paczkovski**
 
-- <https://github.com/usernamecreator1>
+- <https://github.com/ropacz>
 
 ## Thanks
 
