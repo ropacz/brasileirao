@@ -1,0 +1,83 @@
+.rodada {
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+.rodada .cabecalho {
+  display: flex;
+  height: 40px;
+  background-color: #218c74;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.rodada table {
+  border: 1px solid #dfe4ea;
+}
+
+.rodada table input::-webkit-outer-spin-button,
+.rodada table input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.rodada table input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.rodada tr {
+  background-color: #dfe4ea;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+.rodada tr td {
+  padding: 5px;
+}
+
+.rodada tr td input {
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.rodada tr td:nth-of-type(2),
+.rodada tr td:nth-of-type(4) {
+  font-size: 24px;
+  margin: 8px 10px;
+  text-align: left;
+  max-width: 100%;
+}
+
+.rodada tr:nth-child(2n) {
+  background-color: #f1f2f6;
+}
+
+.rodada tr td:nth-of-type(1) {
+  text-align: right;
+  flex: 1;
+}
+
+.rodada tr td:nth-of-type(5) {
+  text-align: left;
+  flex: 1;
+}
+
+.rodada button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.rodada button:hover {
+  opacity: 0.8;
+}

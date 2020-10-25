@@ -1,0 +1,84 @@
+.tabela {
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  align-self: flex-start;
+  flex: 2 0;
+  flex-wrap: wrap;
+}
+
+.tabela table {
+  display: table;
+  width: 100%;
+  border-spacing: 1px;
+  font-size: 1rem;
+  border: 1px solid #dfe4ea;
+}
+
+.tabela th {
+  background-color: #218c74;
+  color: white;
+  padding: 5px;
+}
+
+.tabela td {
+  padding: 6px;
+}
+.tabela td:nth-child(1) {
+  border-left: 8px solid #ddd;
+}
+
+.tabela tr {
+  padding: 5px;
+}
+
+.tabela tr:nth-child(1n) {
+  background-color: #f1f2f6;
+}
+
+.tabela tr:nth-child(2n) {
+  background-color: #dfe4ea;
+}
+
+.tabela .nomeTime {
+  display: flex;
+  align-items: center;
+}
+.tabela .nomeTime img {
+  margin-right: 10px;
+  width: 25px;
+}
+
+.botaoOrdenar {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  margin-left: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.legenda {
+  display: flex;
+  flex: 1 1;
+  align-content: flex-end;
+  margin-top: 10px;
+}
+
+.legenda ul {
+  list-style: none;
+  padding: 0;
+}
+.legenda ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.legenda ul li span {
+  width: 12px;
+  height: 12px;
+  background-color: #f1f2f6;
+  display: block;
+  margin: 0px 5px 0px 0px;
+}

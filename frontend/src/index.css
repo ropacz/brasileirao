@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f2f6;
+}
+
+form,
+input {
+  outline: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.colunas {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
