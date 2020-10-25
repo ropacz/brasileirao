@@ -2,9 +2,9 @@
 
 O objetivo do desafio foi a criação de um website para exibir os resultados dos jogos de futebol, além de uma tabela com a classificação do brasileirão.
 
-### Contrução
+### Construção
 
-No back-end foi desenvolvido uma API Restful utilizando Javascript e o banco de dados PostgreSQL. Para consumir a API no front-end foi utilizado ReactJs.
+No back-end foi desenvolvido uma API Restful utilizando Javascript e o banco de dados PostgreSQ para consumir a API no front-end foi utilizado ReactJs.
 
 Aplicação criada com base nos conhecimentos obtidos na unidade 03.
 
