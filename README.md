@@ -10,7 +10,7 @@ Aplicação criada com base nos conhecimentos obtidos na unidade 03 do curso da 
 
 ## Video demonstração
 
-[![Desfio Unidade 3 - Cubos Academy](https://pasteboard.co/JxiF5vD.png)](http://www.youtube.com/watch?v=UHZJ2T82pfQ "")
+[![Desfio Unidade 3 - Cubos Academy](http://i3.ytimg.com/vi/UHZJ2T82pfQ/maxresdefault.jpg)](http://www.youtube.com/watch?v=UHZJ2T82pfQ "")
 
 ## Recursos utilizados
 
