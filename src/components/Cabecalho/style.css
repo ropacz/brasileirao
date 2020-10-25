@@ -1,0 +1,52 @@
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  background-color: #218c74;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h2 {
+  margin-left: 5px;
+}
+.login input {
+  border: none;
+  padding: 8px;
+  border-radius: 0.5rem;
+}
+
+.login label {
+  margin: 0 10px;
+}
+
+.login button,
+.botaoDeslogar {
+  margin-left: 10px;
+  height: 35px;
+  padding: 0 20px;
+  border: 0;
+  background-color: #05c46b;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  outline: 0;
+  transition: all 0.3s;
+}
+.login button:hover {
+  background-color: #0be881;
+}
+.botaoDeslogar {
+  background-color: #1e272e;
+}
+
+.botaoDeslogar:hover {
+  background-color: #485460;
+}
