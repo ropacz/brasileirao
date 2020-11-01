@@ -85,6 +85,7 @@ export default function Tabela() {
 
     setLoading(false);
     setDados(dadosTratados);
+    console.log(atualizarTabela);
     // setColunas(Object.keys(dadosTratados[0]));
   };
 

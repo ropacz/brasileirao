@@ -12,6 +12,7 @@ import {
   faArrowAltCircleRight,
   faEdit,
   faSave,
+  faTimesCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
